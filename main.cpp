@@ -23,6 +23,11 @@ void delete_image(Color* image) {
     free(image);
 }
 
+// Draw a point of color in (x, y) position on image.
+void draw_point(Color* image, int x, int y, Color color) {
+    //TODO
+}
+
 int main() {
     Color* image = create_image(WIDTH, HEIGHT);
     
